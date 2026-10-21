@@ -6,9 +6,6 @@ import 'builder/http_builder/post_builder.dart';
 void main() {
   var developer = Develop();
 
-  // developer.setBuilder(GameBuilder("intel core:7").addHHD(100));
-  // print(developer.buildSet());
-
   developer.setBuilder(
     GetBuilder()
         .setUri("localhost:8080/users")
@@ -21,5 +18,13 @@ void main() {
         .setUri("localhost:8080/users")
         .setBody('{"name": "Otabek","age": "20","language": "Flutter"}'),
   );
+  print(developer.buildSet());
+
+  developer.setBuilder(
+    GetBuilder()
+        .setUri("localhost:8080/users")
+        .setHeader("Accept", "application/json"),
+  );
+
   print(developer.buildSet());
 }
