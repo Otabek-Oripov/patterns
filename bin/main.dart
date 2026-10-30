@@ -4,6 +4,8 @@ import 'builder/http_builder/get_builder.dart';
 import 'builder/http_builder/post_builder.dart';
 import 'creational/game/gameCharecter.dart';
 import 'creational/game/charecterFactory.dart';
+import 'creational/document/document.dart';
+import 'creational/document/documentFactory.dart';
 void main() {
   // var developer = Develop();
   //
@@ -29,17 +31,18 @@ void main() {
   //
   // print(developer.buildSet());
 
-  GameCharacter hero = GameCharacter(1, "Otabek", 1, "M4a1");
-  Charecterfactory charecterfactory = Charecterfactory(hero);
-  GameCharacter charectorClone = charecterfactory.cloneCharecter();
-  GameCharacter charectorClone1 = charecterfactory.cloneCharecter();
-  print(hero);
-  print("===================");
-  print(hero.clone());
-  charectorClone.name = "Elgato";
-  charectorClone.weapon = "Ak 47";
-  print(charectorClone);
-  charectorClone1.name = "Palo";
-  charectorClone1.weapon = "MG 3";
-  print(charectorClone1);
+  // GameCharacter hero = GameCharacter(1, "Otabek", 1, "M4a1");
+  // Charecterfactory charecterfactory = Charecterfactory(hero);
+  // GameCharacter charectorClone = charecterfactory.cloneCharecter();
+  // GameCharacter charectorClone1 = charecterfactory.cloneCharecter();
+  // print(hero);
+  // print(hero.clone());
+  // charectorClone.name = "Elgato";
+  // charectorClone.weapon = "Ak 47";
+  // print(charectorClone);
+  // charectorClone1.name = "Palo";
+  // charectorClone1.weapon = "MG 3";
+  // print(charectorClone1);
+
+
 }
