@@ -2,10 +2,10 @@ import 'builder/develop.dart';
 import 'builder/copmuter_builder/game_builder.dart';
 import 'builder/http_builder/get_builder.dart';
 import 'builder/http_builder/post_builder.dart';
-import 'creational/game/gameCharecter.dart';
-import 'creational/game/charecterFactory.dart';
-import 'creational/document/document.dart';
-import 'creational/document/documentFactory.dart';
+import 'protatype//game/gameCharecter.dart';
+import 'protatype/game/charecterFactory.dart';
+import 'protatype/document/document.dart';
+import 'protatype/document/documentFactory.dart';
 void main() {
   // var developer = Develop();
   //
